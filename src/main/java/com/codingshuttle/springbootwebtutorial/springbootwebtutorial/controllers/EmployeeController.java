@@ -23,6 +23,11 @@ public class EmployeeController {
 //        return "Secret message: asdfal@#$DASD";
 //    }
 
+    @GetMapping("/hello")
+    public String firstMethod(){
+        return "hello spring";
+    }
+
 
     private final EmployeeService employeeService;
 
